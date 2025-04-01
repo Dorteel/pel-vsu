@@ -1,0 +1,29 @@
+task,num_models,num_unique_labels,labels_sample
+any-to-any,3,0,[]
+audio-text-to-text,1,0,[]
+automatic-speech-recognition,7,2,"['LABEL_0', 'LABEL_1']"
+document-question-answering,4,2,"['LABEL_0', 'LABEL_1']"
+feature-extraction,18,2,"['LABEL_0', 'LABEL_1']"
+image-classification,16215,261737,"[0, 1, 2, 'Old_world_white_pelican, Pelecanus_onocrotalus', 3, 4, 5, 6, 7, 8]"
+image-feature-extraction,7,1001,"['Great Pyrenees', 'garden spider, Aranea diademata', 'garter snake, grass snake', 'horizontal bar, high bar', 'damselfly', 'moving van', 'plate rack', 'mink', 'gazelle', 'horse cart, horse-cart']"
+image-segmentation,1255,2128,"['leaves', 0, 1, 'LABEL_201', 'ape', 2, 'windmill, aerogenerator, wind generator', 'book stand', 3, 4]"
+image-text-to-text,28,2,"['LABEL_0', 'LABEL_1']"
+image-to-image,2,0,[]
+image-to-text,828,1001,"['Great Pyrenees', 'garden spider, Aranea diademata', 'garter snake, grass snake', 'horizontal bar, high bar', 'damselfly', 'moving van', 'plate rack', 'mink', 'gazelle', 'horse cart, horse-cart']"
+keypoint-detection,2,2,"['standing', 'not_standing']"
+mask-generation,2,0,[]
+object-detection,3169,55975,"[0, 1, 2, 3, '200301172', 5, 6, 7, '201502555', '214']"
+question-answering,3,2,"['LABEL_0', 'LABEL_1']"
+sentence-similarity,3,2,"['LABEL_0', 'LABEL_1']"
+summarization,1,2,"['LABEL_0', 'LABEL_1']"
+text-classification,44,12,"['angular_leaf_spot', 'bean_rust', 'entailment', 'issue', 'question', 'healthy', 'positive', 'contradiction', 'feature', 'neutral']"
+text-generation,16,2,"['LABEL_0', 'LABEL_1']"
+text-to-image,16,2,"['LABEL_0', 'LABEL_1']"
+text-to-video,1,2,"['LABEL_0', 'LABEL_1']"
+token-classification,8,11,"['Picture', 'Caption', 'Text', 'Page-footer', 'Formula', 'List-item', 'Footnote', 'Title', 'Page-header', 'Table']"
+unconditional-image-generation,1,0,[]
+video-classification,1412,8668,"[0, 1, 'LABEL_201', 'Hello', 'Success', 'الاول', 'LABEL_731', 'Pretending to take [something] out of [something]', 'stupid', 'married']"
+visual-question-answering,473,27781,"['', 0, 1, 'LABEL_201', 2, 3, 4, 5, 6, '단풍나무']"
+zero-shot-classification,382,104,"['HEALTHY LIVING', 'WORLDPOST', 'LABEL_12', 'CULTURE & ARTS', 'COLLEGE', 'Human', 'Urbanisme', 'LABEL_5', 'BLACK VOICES', 'people']"
+zero-shot-image-classification,895,249,"['department of ecology state of washington', 'bloomberg', 'microsoft', 'lexisnexis', 'bp mobile', 'euro-mediterranean economists association', 'anghami', 'bp', 'tripadvisor', 'pain news network']"
+zero-shot-object-detection,48,113,"[1, 2, 3, 4, 6, 7, 8, 9, 10, 11]"
