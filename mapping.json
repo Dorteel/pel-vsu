@@ -1,0 +1,104 @@
+{
+    "properties": {
+        "color": {
+            "description": "The color of the object",
+            "wikidata_property": "P462"
+        },
+        "shape": {
+            "description": "The shape or form of the object",
+            "wikidata_property": "P1419"
+        },
+        "material": {
+            "description": "The material the object is made of",
+            "wikidata_property": "P186"
+        },
+        "size": {
+            "description": "The size or dimensions of the object",
+            "wikidata_property": "P2048"
+        },
+        "weight": {
+            "description": "The weight or mass of the object",
+            "wikidata_property": "P2067"
+        },
+        "texture": {
+            "description": "The surface texture of the object",
+            "wikidata_property": "P4913"
+        },
+        "function": {
+            "description": "The primary function or purpose of the object",
+            "wikidata_property": "P1013"
+        },
+        "origin": {
+            "description": "The place or culture of origin of the object",
+            "wikidata_property": "P495"
+        },
+        "temperature": {
+            "description": "The temperature of the object",
+            "wikidata_property": "P2076"
+        },
+        "density": {
+            "description": "The density of the object",
+            "wikidata_property": "P2054"
+        },
+        "hardness": {
+            "description": "The hardness of the object",
+            "wikidata_property": "P1088"
+        },
+        "age": {
+            "description": "The age or time period of the object",
+            "wikidata_property": "P1249"
+        },
+        "manufacturer": {
+            "description": "The manufacturer or producer of the object",
+            "wikidata_property": "P176"
+        },
+        "brand": {
+            "description": "The brand associated with the object",
+            "wikidata_property": "P1716"
+        },
+        "location": {
+            "description": "The current location of the object",
+            "wikidata_property": "P276"
+        },
+        "value": {
+            "description": "The monetary value of the object",
+            "wikidata_property": "P2218"
+        },
+        "capacity": {
+            "description": "The capacity or volume of the object",
+            "wikidata_property": "P1083"
+        },
+        "energy": {
+            "description": "The energy content or usage of the object",
+            "wikidata_property": "P2101"
+        },
+        "speed": {
+            "description": "The speed or velocity of the object",
+            "wikidata_property": "P2052"
+        },
+        "power": {
+            "description": "The power output or consumption of the object",
+            "wikidata_property": "P2109"
+        },
+        "lifespan": {
+            "description": "The expected lifespan or durability of the object",
+            "wikidata_property": "P2250"
+        },
+        "composition": {
+            "description": "The chemical composition of the object",
+            "wikidata_property": "P2176"
+        },
+        "symbolism": {
+            "description": "The symbolic meaning or representation of the object",
+            "wikidata_property": "P487"
+        },
+        "usage": {
+            "description": "The typical usage or application of the object",
+            "wikidata_property": "P366"
+        },
+        "classification": {
+            "description": "The classification or category of the object",
+            "wikidata_property": "P279"
+        }
+    }
+}
