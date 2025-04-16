@@ -1,0 +1,908 @@
+{
+    "TV Remote": {
+        "synset": "remote_control.n.01",
+        "definition": "a device that can be used to control a machine or apparatus from a distance",
+        "synonyms": [
+            "remote_control",
+            "remote"
+        ],
+        "hypernyms": [
+            "device.n.01"
+        ],
+        "hyponyms": []
+    },
+    "Medicine Pill": {
+        "synset": "pill.n.01",
+        "definition": "something that resembles a tablet of medicine in shape or size",
+        "synonyms": [
+            "pill"
+        ],
+        "hypernyms": [
+            "thing.n.04"
+        ],
+        "hyponyms": [
+            "vitamin_pill.n.01"
+        ]
+    },
+    "Cordless Phone": {
+        "synset": "telephone.n.01",
+        "definition": "electronic equipment that converts sound into electrical signals that can be transmitted over distances and then converts received signals back into sounds",
+        "synonyms": [
+            "telephone",
+            "phone",
+            "telephone_set"
+        ],
+        "hypernyms": [
+            "electronic_equipment.n.01"
+        ],
+        "hyponyms": [
+            "radiotelephone.n.02",
+            "handset.n.01",
+            "pay-phone.n.01",
+            "speakerphone.n.01",
+            "desk_phone.n.01",
+            "extension.n.10",
+            "dial_telephone.n.01"
+        ]
+    },
+    "Prescription Bottle": {
+        "synset": "bottle.n.01",
+        "definition": "a glass or plastic vessel used for storing drinks or other liquids; typically cylindrical without handles and with a narrow neck that can be plugged or capped",
+        "synonyms": [
+            "bottle"
+        ],
+        "hypernyms": [
+            "vessel.n.03"
+        ],
+        "hyponyms": [
+            "demijohn.n.01",
+            "flask.n.01",
+            "ink_bottle.n.01",
+            "whiskey_bottle.n.01",
+            "pop_bottle.n.01",
+            "pill_bottle.n.01",
+            "gourd.n.01",
+            "water_bottle.n.01",
+            "wine_bottle.n.01",
+            "beer_bottle.n.01",
+            "jug.n.01",
+            "smelling_bottle.n.01",
+            "cruet.n.01",
+            "carboy.n.01",
+            "catsup_bottle.n.01",
+            "specimen_bottle.n.01",
+            "phial.n.01",
+            "carafe.n.01"
+        ]
+    },
+    "Fork": {
+        "synset": "fork.n.01",
+        "definition": "cutlery used for serving and eating food",
+        "synonyms": [
+            "fork"
+        ],
+        "hypernyms": [
+            "cutlery.n.02"
+        ],
+        "hyponyms": [
+            "toasting_fork.n.01",
+            "carving_fork.n.01",
+            "tablefork.n.01",
+            "salad_fork.n.01"
+        ]
+    },
+    "Glasses": {
+        "synset": "spectacles.n.01",
+        "definition": "optical instrument consisting of a frame that holds a pair of lenses for correcting defective vision",
+        "synonyms": [
+            "spectacles",
+            "eyeglasses",
+            "glasses",
+            "specs"
+        ],
+        "hypernyms": [
+            "optical_instrument.n.01"
+        ],
+        "hyponyms": [
+            "sunglasses.n.01",
+            "goggles.n.01",
+            "bifocals.n.01",
+            "lorgnette.n.01",
+            "pince-nez.n.01"
+        ]
+    },
+    "Toothbrush": {
+        "synset": "toothbrush.n.01",
+        "definition": "small brush; has long handle; used to clean teeth",
+        "synonyms": [
+            "toothbrush"
+        ],
+        "hypernyms": [
+            "brush.n.02",
+            "toiletry.n.01"
+        ],
+        "hyponyms": [
+            "electric_toothbrush.n.01"
+        ]
+    },
+    "Spoon": {
+        "synset": "spoon.n.01",
+        "definition": "a piece of cutlery with a shallow bowl-shaped container and a handle; used to stir or serve or take up food",
+        "synonyms": [
+            "spoon"
+        ],
+        "hypernyms": [
+            "cutlery.n.02",
+            "container.n.01"
+        ],
+        "hyponyms": [
+            "tablespoon.n.02",
+            "soupspoon.n.01",
+            "tea_maker.n.01",
+            "wooden_spoon.n.02",
+            "teaspoon.n.02",
+            "sugar_spoon.n.01",
+            "runcible_spoon.n.01",
+            "dessert_spoon.n.01"
+        ]
+    },
+    "Cell Phone": {
+        "synset": "telephone.n.01",
+        "definition": "electronic equipment that converts sound into electrical signals that can be transmitted over distances and then converts received signals back into sounds",
+        "synonyms": [
+            "telephone",
+            "phone",
+            "telephone_set"
+        ],
+        "hypernyms": [
+            "electronic_equipment.n.01"
+        ],
+        "hyponyms": [
+            "radiotelephone.n.02",
+            "handset.n.01",
+            "pay-phone.n.01",
+            "speakerphone.n.01",
+            "desk_phone.n.01",
+            "extension.n.10",
+            "dial_telephone.n.01"
+        ]
+    },
+    "Toothpaste": {
+        "synset": "toothpaste.n.01",
+        "definition": "a dentifrice in the form of a paste",
+        "synonyms": [
+            "toothpaste"
+        ],
+        "hypernyms": [
+            "dentifrice.n.01"
+        ],
+        "hyponyms": []
+    },
+    "Book": {
+        "synset": "book.n.01",
+        "definition": "a written work or composition that has been published (printed on pages bound together)",
+        "synonyms": [
+            "book"
+        ],
+        "hypernyms": [
+            "publication.n.01"
+        ],
+        "hyponyms": [
+            "authority.n.07",
+            "storybook.n.01",
+            "phrase_book.n.01",
+            "prayer_book.n.01",
+            "booklet.n.01",
+            "appointment_book.n.01",
+            "playbook.n.02",
+            "curiosa.n.01",
+            "pop-up_book.n.01",
+            "bestiary.n.01",
+            "reference_book.n.01",
+            "catechism.n.02",
+            "trade_book.n.01",
+            "yearbook.n.01",
+            "formulary.n.01",
+            "catalog.n.01",
+            "review_copy.n.01",
+            "workbook.n.01",
+            "tome.n.01",
+            "copybook.n.01",
+            "songbook.n.01",
+            "textbook.n.01"
+        ]
+    },
+    "Hand Towel": {
+        "synset": "towel.n.01",
+        "definition": "a rectangular piece of absorbent cloth (or paper) for drying or wiping",
+        "synonyms": [
+            "towel"
+        ],
+        "hypernyms": [
+            "piece_of_cloth.n.01"
+        ],
+        "hyponyms": [
+            "roller_towel.n.01",
+            "hand_towel.n.01",
+            "beach_towel.n.01",
+            "bath_towel.n.01",
+            "paper_towel.n.01",
+            "dishtowel.n.01"
+        ]
+    },
+    "Mail": {
+        "synset": "mail.n.01",
+        "definition": "the bags of letters and packages that are transported by the postal service",
+        "synonyms": [
+            "mail"
+        ],
+        "hypernyms": [
+            "message.n.01"
+        ],
+        "hyponyms": [
+            "special_delivery.n.01",
+            "third-class_mail.n.01",
+            "bulk_mail.n.01",
+            "parcel_post.n.01",
+            "express.n.01",
+            "surface_mail.n.01",
+            "registered_mail.n.01",
+            "first_class.n.02",
+            "air_mail.n.01",
+            "airmail.n.01"
+        ]
+    },
+    "Mug": {
+        "synset": "mug.n.01",
+        "definition": "the quantity that can be held in a mug",
+        "synonyms": [
+            "mug",
+            "mugful"
+        ],
+        "hypernyms": [
+            "containerful.n.01"
+        ],
+        "hyponyms": []
+    },
+    "Soap": {
+        "synset": "soap.n.01",
+        "definition": "a cleansing agent made from the salts of vegetable or animal fats",
+        "synonyms": [
+            "soap"
+        ],
+        "hypernyms": [
+            "cleansing_agent.n.01"
+        ],
+        "hyponyms": [
+            "soap_flakes.n.01",
+            "liquid_soap.n.01",
+            "soft_soap.n.02",
+            "toilet_soap.n.01",
+            "castile_soap.n.01",
+            "saddle_soap.n.01",
+            "bar_soap.n.01",
+            "soap_powder.n.01"
+        ]
+    },
+    "Disposable Bottle": {
+        "synset": "bottle.n.01",
+        "definition": "a glass or plastic vessel used for storing drinks or other liquids; typically cylindrical without handles and with a narrow neck that can be plugged or capped",
+        "synonyms": [
+            "bottle"
+        ],
+        "hypernyms": [
+            "vessel.n.03"
+        ],
+        "hyponyms": [
+            "demijohn.n.01",
+            "flask.n.01",
+            "ink_bottle.n.01",
+            "whiskey_bottle.n.01",
+            "pop_bottle.n.01",
+            "pill_bottle.n.01",
+            "gourd.n.01",
+            "water_bottle.n.01",
+            "wine_bottle.n.01",
+            "beer_bottle.n.01",
+            "jug.n.01",
+            "smelling_bottle.n.01",
+            "cruet.n.01",
+            "carboy.n.01",
+            "catsup_bottle.n.01",
+            "specimen_bottle.n.01",
+            "phial.n.01",
+            "carafe.n.01"
+        ]
+    },
+    "Shoe": {
+        "synset": "shoe.n.01",
+        "definition": "footwear shaped to fit the foot (below the ankle) with a flexible upper of leather or plastic and a sole and heel of heavier material",
+        "synonyms": [
+            "shoe"
+        ],
+        "hypernyms": [
+            "footwear.n.02"
+        ],
+        "hyponyms": [
+            "congress_boot.n.01",
+            "loafer.n.02",
+            "balmoral.n.01",
+            "walking_shoe.n.01",
+            "anklet.n.01",
+            "bowling_shoe.n.01",
+            "chopine.n.01",
+            "oxford.n.04",
+            "calceus.n.01",
+            "walker.n.04",
+            "brogan.n.01",
+            "running_shoe.n.01",
+            "moccasin.n.01",
+            "baby_shoe.n.01",
+            "wedgie.n.01",
+            "gaiter.n.02",
+            "blucher.n.02",
+            "wing_tip.n.01",
+            "slingback.n.01",
+            "gym_shoe.n.01",
+            "cleats.n.01",
+            "sabot.n.01",
+            "flipper.n.01",
+            "chukka.n.02",
+            "ghillie.n.01",
+            "pump.n.03",
+            "sandal.n.01"
+        ]
+    },
+    "Dish Bowl": {
+        "synset": "bowl.n.01",
+        "definition": "a round vessel that is open at the top; used chiefly for holding food or liquids",
+        "synonyms": [
+            "bowl"
+        ],
+        "hypernyms": [
+            "vessel.n.03"
+        ],
+        "hyponyms": [
+            "mazer.n.01",
+            "jorum.n.01",
+            "toilet_bowl.n.01",
+            "fishbowl.n.02"
+        ]
+    },
+    "Keys": {
+        "synset": "key.n.01",
+        "definition": "metal device shaped in such a way that when it is inserted into the appropriate lock the lock's mechanism can be rotated",
+        "synonyms": [
+            "key"
+        ],
+        "hypernyms": [
+            "device.n.01"
+        ],
+        "hyponyms": [
+            "ignition_key.n.01",
+            "latchkey.n.01",
+            "passkey.n.01"
+        ]
+    },
+    "Dish Plate": {
+        "synset": "home_plate.n.01",
+        "definition": "(baseball) base consisting of a rubber slab where the batter stands; it must be touched by a base runner in order to score",
+        "synonyms": [
+            "home_plate",
+            "home",
+            "plate",
+            "home_base"
+        ],
+        "hypernyms": [
+            "base.n.03"
+        ],
+        "hyponyms": []
+    },
+    "Pencil": {
+        "synset": "pencil.n.01",
+        "definition": "a thin cylindrical pointed writing implement; a rod of marking substance encased in wood",
+        "synonyms": [
+            "pencil"
+        ],
+        "hypernyms": [
+            "writing_implement.n.01"
+        ],
+        "hyponyms": [
+            "lead_pencil.n.01",
+            "slate_pencil.n.01"
+        ]
+    },
+    "Table Knife": {
+        "synset": "knife.n.01",
+        "definition": "edge tool used as a cutting instrument; has a pointed blade with a sharp edge and a handle",
+        "synonyms": [
+            "knife"
+        ],
+        "hypernyms": [
+            "edge_tool.n.01"
+        ],
+        "hyponyms": [
+            "parang.n.01",
+            "pocketknife.n.01",
+            "barong.n.01",
+            "surgical_knife.n.01",
+            "hunting_knife.n.01",
+            "table_knife.n.01",
+            "carving_knife.n.01",
+            "bread_knife.n.01",
+            "linoleum_knife.n.01",
+            "pruning_knife.n.01",
+            "cleaver.n.01",
+            "slicer.n.03",
+            "case_knife.n.02",
+            "bolo.n.02",
+            "bowie_knife.n.01",
+            "parer.n.02",
+            "letter_opener.n.01",
+            "drawknife.n.01",
+            "butcher_knife.n.01"
+        ]
+    },
+    "Credit Card": {
+        "synset": "card.n.01",
+        "definition": "one of a set of small pieces of stiff paper marked in various ways and used for playing games or for telling fortunes",
+        "synonyms": [
+            "card"
+        ],
+        "hypernyms": [
+            "paper.n.01"
+        ],
+        "hyponyms": [
+            "punched_card.n.01",
+            "trading_card.n.01",
+            "playing_card.n.01",
+            "tarot_card.n.01"
+        ]
+    },
+    "Medicine Box": {
+        "synset": "box.n.01",
+        "definition": "a (usually rectangular) container; may have a lid",
+        "synonyms": [
+            "box"
+        ],
+        "hypernyms": [
+            "container.n.01"
+        ],
+        "hyponyms": [
+            "cereal_box.n.01",
+            "playbox.n.01",
+            "strongbox.n.01",
+            "tinderbox.n.02",
+            "bandbox.n.01",
+            "coffin.n.01",
+            "poor_box.n.01",
+            "carton.n.02",
+            "flat.n.02",
+            "hod.n.01",
+            "matchbox.n.01",
+            "cigar_box.n.01",
+            "tuck_box.n.01",
+            "snuffbox.n.01",
+            "chest.n.02",
+            "shadow_box.n.01",
+            "casket.n.02",
+            "ballot_box.n.01",
+            "crate.n.01",
+            "paintbox.n.01",
+            "pencil_box.n.01",
+            "mailbox.n.01",
+            "window_box.n.01",
+            "pyxis.n.03",
+            "shoebox.n.02"
+        ]
+    },
+    "Bill": {
+        "synset": "bill.n.01",
+        "definition": "a statute in draft before it becomes law",
+        "synonyms": [
+            "measure",
+            "bill"
+        ],
+        "hypernyms": [
+            "legal_document.n.01"
+        ],
+        "hyponyms": [
+            "trade_bill.n.01",
+            "bottle_bill.n.01",
+            "appropriation_bill.n.01",
+            "bill_of_attainder.n.01",
+            "farm_bill.n.01"
+        ]
+    },
+    "Straw": {
+        "synset": "straw.n.01",
+        "definition": "plant fiber used e.g. for making baskets and hats or as fodder",
+        "synonyms": [
+            "straw"
+        ],
+        "hypernyms": [
+            "plant_fiber.n.01"
+        ],
+        "hyponyms": []
+    },
+    "Magazine": {
+        "synset": "magazine.n.01",
+        "definition": "a periodic publication containing pictures and stories and articles of interest to those who purchase it or subscribe to it",
+        "synonyms": [
+            "mag",
+            "magazine"
+        ],
+        "hypernyms": [
+            "press.n.02",
+            "publication.n.01"
+        ],
+        "hyponyms": [
+            "news_magazine.n.01",
+            "comic_book.n.01",
+            "slick.n.02",
+            "pulp.n.04",
+            "trade_magazine.n.01",
+            "colour_supplement.n.01"
+        ]
+    },
+    "Plastic Container": {
+        "synset": "container.n.01",
+        "definition": "any object that can be used to hold things (especially a large metal boxlike object of standardized dimensions that can be loaded from one form of transport to another)",
+        "synonyms": [
+            "container"
+        ],
+        "hypernyms": [
+            "instrumentality.n.03"
+        ],
+        "hyponyms": [
+            "dish.n.01",
+            "cylinder.n.04",
+            "drawer.n.01",
+            "time_capsule.n.01",
+            "mailer.n.04",
+            "pod.n.04",
+            "bunker.n.02",
+            "empty.n.01",
+            "envelope.n.01",
+            "watering_can.n.01",
+            "measure.n.09",
+            "glass.n.02",
+            "magnetic_bottle.n.01",
+            "pan.n.03",
+            "vessel.n.03",
+            "mold.n.02",
+            "cargo_container.n.01",
+            "powder_horn.n.01",
+            "dumpster.n.01",
+            "wastepaper_basket.n.01",
+            "wheeled_vehicle.n.01",
+            "thimble.n.02",
+            "bag.n.04",
+            "case.n.05",
+            "savings_bank.n.02",
+            "bin.n.01",
+            "scuttle.n.01",
+            "pot.n.04",
+            "saltcellar.n.01",
+            "capsule.n.01",
+            "dice_cup.n.01",
+            "workbasket.n.01",
+            "case.n.20",
+            "canister.n.02",
+            "spoon.n.01",
+            "dispenser.n.01",
+            "cup.n.01",
+            "storage_ring.n.01",
+            "can.n.01",
+            "manger.n.01",
+            "basket.n.01",
+            "box.n.01",
+            "reliquary.n.01",
+            "bag.n.01",
+            "grab_bag.n.02",
+            "package.n.02",
+            "shaker.n.03",
+            "bread-bin.n.01",
+            "bowl.n.08",
+            "cassette.n.01",
+            "receptacle.n.01"
+        ]
+    },
+    "Newspaper": {
+        "synset": "newspaper.n.01",
+        "definition": "a daily or weekly publication on folded sheets; contains news and articles and advertisements",
+        "synonyms": [
+            "paper",
+            "newspaper"
+        ],
+        "hypernyms": [
+            "press.n.02"
+        ],
+        "hyponyms": [
+            "gazette.n.01",
+            "school_newspaper.n.01",
+            "tabloid.n.02",
+            "daily.n.01"
+        ]
+    },
+    "Non-disposable Bottle": {
+        "synset": "bottle.n.01",
+        "definition": "a glass or plastic vessel used for storing drinks or other liquids; typically cylindrical without handles and with a narrow neck that can be plugged or capped",
+        "synonyms": [
+            "bottle"
+        ],
+        "hypernyms": [
+            "vessel.n.03"
+        ],
+        "hyponyms": [
+            "demijohn.n.01",
+            "flask.n.01",
+            "ink_bottle.n.01",
+            "whiskey_bottle.n.01",
+            "pop_bottle.n.01",
+            "pill_bottle.n.01",
+            "gourd.n.01",
+            "water_bottle.n.01",
+            "wine_bottle.n.01",
+            "beer_bottle.n.01",
+            "jug.n.01",
+            "smelling_bottle.n.01",
+            "cruet.n.01",
+            "carboy.n.01",
+            "catsup_bottle.n.01",
+            "specimen_bottle.n.01",
+            "phial.n.01",
+            "carafe.n.01"
+        ]
+    },
+    "Pants": {
+        "synset": "bloomers.n.01",
+        "definition": "underpants worn by women",
+        "synonyms": [
+            "knickers",
+            "bloomers",
+            "drawers",
+            "pants"
+        ],
+        "hypernyms": [
+            "underpants.n.01"
+        ],
+        "hyponyms": []
+    },
+    "Shirt": {
+        "synset": "shirt.n.01",
+        "definition": "a garment worn on the upper half of the body",
+        "synonyms": [
+            "shirt"
+        ],
+        "hypernyms": [
+            "garment.n.01"
+        ],
+        "hyponyms": [
+            "hair_shirt.n.01",
+            "work-shirt.n.01",
+            "polo_shirt.n.01",
+            "tank_top.n.01",
+            "kurta.n.01",
+            "dashiki.n.01",
+            "dress_shirt.n.01",
+            "camise.n.01",
+            "jersey.n.03"
+        ]
+    },
+    "Wallet": {
+        "synset": "wallet.n.01",
+        "definition": "a pocket-size case for holding papers and paper money",
+        "synonyms": [
+            "pocketbook",
+            "notecase",
+            "billfold",
+            "wallet"
+        ],
+        "hypernyms": [
+            "case.n.05"
+        ],
+        "hyponyms": []
+    },
+    "Small Pillow": {
+        "synset": "pillow.n.01",
+        "definition": "a cushion to support the head of a sleeping person",
+        "synonyms": [
+            "pillow"
+        ],
+        "hypernyms": [
+            "cushion.n.03"
+        ],
+        "hyponyms": [
+            "bed_pillow.n.01",
+            "bolster.n.01"
+        ]
+    },
+    "Socks": {
+        "synset": "sock.n.01",
+        "definition": "hosiery consisting of a cloth covering for the foot; worn inside the shoe; reaches to between the ankle and the knee",
+        "synonyms": [
+            "sock"
+        ],
+        "hypernyms": [
+            "hosiery.n.01"
+        ],
+        "hyponyms": [
+            "knee-high.n.01",
+            "anklet.n.02",
+            "argyle.n.03",
+            "tabi.n.01",
+            "athletic_sock.n.01"
+        ]
+    },
+    "Hairbrush": {
+        "synset": "hairbrush.n.01",
+        "definition": "a brush used to groom a person's hair",
+        "synonyms": [
+            "hairbrush"
+        ],
+        "hypernyms": [
+            "brush.n.02"
+        ],
+        "hyponyms": []
+    },
+    "Can": {
+        "synset": "can.n.01",
+        "definition": "airtight sealed metal container for food or drink or paint etc.",
+        "synonyms": [
+            "tin_can",
+            "tin",
+            "can"
+        ],
+        "hypernyms": [
+            "container.n.01"
+        ],
+        "hyponyms": [
+            "oilcan.n.01",
+            "caddy.n.01",
+            "coffee_can.n.01",
+            "cannikin.n.02",
+            "soda_can.n.01",
+            "milk_can.n.01",
+            "beer_can.n.01"
+        ]
+    },
+    "Coins": {
+        "synset": "coin.n.01",
+        "definition": "a flat metal piece (usually a disc) used as money",
+        "synonyms": [
+            "coin"
+        ],
+        "hypernyms": [
+            "coinage.n.01"
+        ],
+        "hyponyms": [
+            "guinea.n.01",
+            "halfpenny.n.01",
+            "fivepence.n.01",
+            "quarter.n.10",
+            "ninepence.n.01",
+            "sixpence.n.01",
+            "tenpence.n.01",
+            "ducat.n.01",
+            "denier.n.02",
+            "bezant.n.01",
+            "change.n.08",
+            "louis_d'or.n.01",
+            "half_dollar.n.01",
+            "eightpence.n.01",
+            "dollar.n.03",
+            "fourpence.n.01",
+            "half_eagle.n.01",
+            "medallion.n.01",
+            "bawbee.n.01",
+            "twopence.n.01",
+            "double_eagle.n.02",
+            "piece_of_eight.n.01",
+            "nickel.n.02",
+            "threepence.n.01",
+            "crown.n.06",
+            "real.n.03",
+            "shilling.n.06",
+            "maundy_money.n.01",
+            "half_crown.n.01",
+            "slug.n.03",
+            "doubloon.n.01",
+            "eagle.n.03",
+            "penny.n.02",
+            "farthing.n.01",
+            "sou.n.01",
+            "stater.n.01",
+            "dime.n.01"
+        ]
+    },
+    "Walking Cane": {
+        "synset": "cane.n.01",
+        "definition": "a stick that people can lean on to help them walk",
+        "synonyms": [
+            "cane"
+        ],
+        "hypernyms": [
+            "walking_stick.n.01"
+        ],
+        "hyponyms": [
+            "malacca.n.02",
+            "sword_cane.n.01",
+            "swagger_stick.n.01"
+        ]
+    },
+    "Wrist Watch": {
+        "synset": "watch.n.01",
+        "definition": "a small portable timepiece",
+        "synonyms": [
+            "watch",
+            "ticker"
+        ],
+        "hypernyms": [
+            "timepiece.n.01"
+        ],
+        "hyponyms": [
+            "hunter.n.04",
+            "analog_watch.n.01",
+            "wristwatch.n.01",
+            "pocket_watch.n.01",
+            "pendulum_watch.n.01",
+            "digital_watch.n.01",
+            "stem-winder.n.01"
+        ]
+    },
+    "Scissors": {
+        "synset": "scissors.n.01",
+        "definition": "an edge tool having two crossed pivoting blades",
+        "synonyms": [
+            "scissors",
+            "pair_of_scissors"
+        ],
+        "hypernyms": [
+            "compound_lever.n.01",
+            "edge_tool.n.01"
+        ],
+        "hyponyms": [
+            "clipper.n.04",
+            "shears.n.01",
+            "snuffers.n.01"
+        ]
+    },
+    "Purse": {
+        "synset": "bag.n.04",
+        "definition": "a container used for carrying money and small personal items or accessories (especially by women)",
+        "synonyms": [
+            "bag",
+            "pocketbook",
+            "handbag",
+            "purse"
+        ],
+        "hypernyms": [
+            "container.n.01"
+        ],
+        "hyponyms": [
+            "reticule.n.01",
+            "shoulder_bag.n.01",
+            "clutch_bag.n.01",
+            "etui.n.01",
+            "evening_bag.n.01"
+        ]
+    },
+    "Lighter": {
+        "synset": "igniter.n.01",
+        "definition": "a substance used to ignite or kindle a fire",
+        "synonyms": [
+            "ignitor",
+            "lighter",
+            "igniter"
+        ],
+        "hypernyms": [
+            "fuel.n.01"
+        ],
+        "hyponyms": [
+            "kindling.n.01",
+            "firelighter.n.01",
+            "punk.n.02"
+        ]
+    }
+}

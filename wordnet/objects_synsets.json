@@ -1,0 +1,260 @@
+{
+  "TV Remote": [
+    {
+      "synset": "remote_control.n.01",
+      "definition": "a device that can be used to control a machine or apparatus from a distance"
+    }
+  ],
+  "Medicine Pill": [
+    {
+      "synset": "pill.n.01",
+      "definition": "something that resembles a tablet of medicine in shape or size"
+    }
+  ],
+  "Cordless Phone": [
+    {
+      "synset": "telephone.n.01",
+      "definition": "electronic equipment that converts sound into electrical signals that can be transmitted over distances and then converts received signals back into sounds"
+    }
+  ],
+  "Prescription Bottle": [
+    {
+      "synset": "bottle.n.01",
+      "definition": "a glass or plastic vessel used for storing drinks or other liquids; typically cylindrical without handles and with a narrow neck that can be plugged or capped"
+    }
+  ],
+  "Fork": [
+    {
+      "synset": "fork.n.01",
+      "definition": "cutlery used for serving and eating food"
+    }
+  ],
+  "Glasses": [
+    {
+      "synset": "spectacles.n.01",
+      "definition": "optical instrument consisting of a frame that holds a pair of lenses for correcting defective vision"
+    }
+  ],
+  "Toothbrush": [
+    {
+      "synset": "toothbrush.n.01",
+      "definition": "small brush; has long handle; used to clean teeth"
+    }
+  ],
+  "Spoon": [
+    {
+      "synset": "spoon.n.01",
+      "definition": "a piece of cutlery with a shallow bowl-shaped container and a handle; used to stir or serve or take up food"
+    }
+  ],
+  "Cell Phone": [
+    {
+      "synset": "telephone.n.01",
+      "definition": "electronic equipment that converts sound into electrical signals that can be transmitted over distances and then converts received signals back into sounds"
+    }
+  ],
+  "Toothpaste": [
+    {
+      "synset": "toothpaste.n.01",
+      "definition": "a dentifrice in the form of a paste"
+    }
+  ],
+  "Book": [
+    {
+      "synset": "book.n.01",
+      "definition": "a written work or composition that has been published (printed on pages bound together)"
+    }
+  ],
+  "Hand Towel": [
+    {
+      "synset": "towel.n.01",
+      "definition": "a rectangular piece of absorbent cloth (or paper) for drying or wiping"
+    }
+  ],
+  "Mail": [
+    {
+      "synset": "mail.n.01",
+      "definition": "the bags of letters and packages that are transported by the postal service"
+    }
+  ],
+  "Cup": [
+    {
+      "synset": "cup.n.01",
+      "definition": "the quantity that can be held in a mug"
+    }
+  ],
+  "Soap": [
+    {
+      "synset": "soap.n.01",
+      "definition": "a cleansing agent made from the salts of vegetable or animal fats"
+    }
+  ],
+  "Disposable Bottle": [
+    {
+      "synset": "bottle.n.01",
+      "definition": "a glass or plastic vessel used for storing drinks or other liquids; typically cylindrical without handles and with a narrow neck that can be plugged or capped"
+    }
+  ],
+  "Shoe": [
+    {
+      "synset": "shoe.n.01",
+      "definition": "footwear shaped to fit the foot (below the ankle) with a flexible upper of leather or plastic and a sole and heel of heavier material"
+    }
+  ],
+  "Dish Bowl": [
+    {
+      "synset": "bowl.n.01",
+      "definition": "a round vessel that is open at the top; used chiefly for holding food or liquids"
+    }
+  ],
+  "Keys": [
+    {
+      "synset": "key.n.01",
+      "definition": "metal device shaped in such a way that when it is inserted into the appropriate lock the lock's mechanism can be rotated"
+    }
+  ],
+  "Dish Plate": [
+    {
+      "synset": "plate.n.04",
+      "definition": "(baseball) base consisting of a rubber slab where the batter stands; it must be touched by a base runner in order to score"
+    }
+  ],
+  "Pencil": [
+    {
+      "synset": "pencil.n.01",
+      "definition": "a thin cylindrical pointed writing implement; a rod of marking substance encased in wood"
+    }
+  ],
+  "Table Knife": [
+    {
+      "synset": "knife.n.01",
+      "definition": "edge tool used as a cutting instrument; has a pointed blade with a sharp edge and a handle"
+    }
+  ],
+  "Credit Card": [
+    {
+      "synset": "card.n.01",
+      "definition": "one of a set of small pieces of stiff paper marked in various ways and used for playing games or for telling fortunes"
+    }
+  ],
+  "Medicine Box": [
+    {
+      "synset": "box.n.01",
+      "definition": "a (usually rectangular) container; may have a lid"
+    }
+  ],
+  "Bill": [
+    {
+      "synset": "bill.n.03",
+      "definition": "a statute in draft before it becomes law"
+    }
+  ],
+  "Straw": [
+    {
+      "synset": "straw.n.04",
+      "definition": "plant fiber used e.g. for making baskets and hats or as fodder"
+    }
+  ],
+  "Magazine": [
+    {
+      "synset": "magazine.n.01",
+      "definition": "a periodic publication containing pictures and stories and articles of interest to those who purchase it or subscribe to it"
+    }
+  ],
+  "Plastic Container": [
+    {
+      "synset": "container.n.01",
+      "definition": "any object that can be used to hold things (especially a large metal boxlike object of standardized dimensions that can be loaded from one form of transport to another)"
+    }
+  ],
+  "Newspaper": [
+    {
+      "synset": "newspaper.n.01",
+      "definition": "a daily or weekly publication on folded sheets; contains news and articles and advertisements"
+    }
+  ],
+  "Non-disposable Bottle": [
+    {
+      "synset": "bottle.n.01",
+      "definition": "a glass or plastic vessel used for storing drinks or other liquids; typically cylindrical without handles and with a narrow neck that can be plugged or capped"
+    }
+  ],
+  "Pants": [
+    {
+      "synset": "trouser.n.01",
+      "definition": "underpants worn by women"
+    }
+  ],
+  "Shirt": [
+    {
+      "synset": "shirt.n.01",
+      "definition": "a garment worn on the upper half of the body"
+    }
+  ],
+  "Wallet": [
+    {
+      "synset": "wallet.n.01",
+      "definition": "a pocket-size case for holding papers and paper money"
+    }
+  ],
+  "Small Pillow": [
+    {
+      "synset": "pillow.n.01",
+      "definition": "a cushion to support the head of a sleeping person"
+    }
+  ],
+  "Socks": [
+    {
+      "synset": "sock.n.01",
+      "definition": "hosiery consisting of a cloth covering for the foot; worn inside the shoe; reaches to between the ankle and the knee"
+    }
+  ],
+  "Hairbrush": [
+    {
+      "synset": "hairbrush.n.01",
+      "definition": "a brush used to groom a person's hair"
+    }
+  ],
+  "Can": [
+    {
+      "synset": "can.n.01",
+      "definition": "airtight sealed metal container for food or drink or paint etc."
+    }
+  ],
+  "Coins": [
+    {
+      "synset": "coin.n.01",
+      "definition": "a flat metal piece (usually a disc) used as money"
+    }
+  ],
+  "Walking Cane": [
+    {
+      "synset": "cane.n.01",
+      "definition": "a stick that people can lean on to help them walk"
+    }
+  ],
+  "Wrist Watch": [
+    {
+      "synset": "watch.n.01",
+      "definition": "a small portable timepiece"
+    }
+  ],
+  "Scissors": [
+    {
+      "synset": "scissors.n.01",
+      "definition": "an edge tool having two crossed pivoting blades"
+    }
+  ],
+  "Purse": [
+    {
+      "synset": "purse.n.04",
+      "definition": "a container used for carrying money and small personal items or accessories (especially by women)"
+    }
+  ],
+  "Lighter": [
+    {
+      "synset": "lighter.n.02",
+      "definition": "a substance used to ignite or kindle a fire"
+    }
+  ]
+}
