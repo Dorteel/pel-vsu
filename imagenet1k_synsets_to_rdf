@@ -1,0 +1,101 @@
+import json
+import rdflib
+from rdflib import Graph, Namespace, URIRef, Literal, RDF, RDFS, SKOS, OWL
+import re
+from nltk.corpus import wordnet as wn
+
+# Namespaces
+WN = Namespace("http://wordnet-rdf.princeton.edu/wn30/")
+IMAGENET = Namespace("http://example.org/imagenet1k/")
+
+# Load the JSON
+with open("imagenet_label_to_wordnet_synset.json", "r") as f:
+    data = json.load(f)
+
+# Create RDF graph
+g = Graph()
+g.bind("rdfs", RDFS)
+g.bind("skos", SKOS)
+g.bind("wn", WN)
+g.bind("imagenet", IMAGENET)
+g.bind("owl", OWL)
+
+visited_synsets = set()
+
+max_depth = 100
+
+# Collect valid synset IDs from JSON
+valid_synsets = set(entry["id"] for entry in data.values())
+
+def sanitize(name):
+    return re.sub(r"[^a-zA-Z0-9_]+", "_", name.replace(" ", "_"))
+
+def get_wordnet_synset(synset_id):
+    offset, pos = synset_id.split("-")
+    wn_pos = {
+        "n": wn.NOUN,
+        "v": wn.VERB,
+        "a": wn.ADJ,
+        "r": wn.ADV
+    }[pos[0]]
+    return wn.synset_from_pos_and_offset(wn_pos, int(offset))
+
+def add_node(synset):
+    synset_id = f"{str(synset.offset()).zfill(8)}-{synset.pos()}"
+    node_uri = IMAGENET[synset_id]
+
+    if synset_id in visited_synsets:
+        return node_uri
+
+    visited_synsets.add(synset_id)
+    main_label = synset.lemmas()[0].name().replace("_", " ")
+
+    g.add((node_uri, RDF.type, OWL.Class))
+    g.add((node_uri, RDFS.label, Literal(main_label)))
+    g.add((node_uri, RDFS.comment, Literal(synset.definition())))
+    g.add((node_uri, SKOS.note, Literal(synset_id)))
+
+    for lemma in synset.lemmas()[1:]:
+        g.add((node_uri, SKOS.altLabel, Literal(lemma.name().replace("_", " "))))
+
+    if synset_id in valid_synsets:
+        g.add((node_uri, RDFS.comment, Literal("Synset is part of ImageNet-1k.")))
+
+    return node_uri
+
+def add_hypernyms(synset, node_uri, depth=0):
+    if depth >= max_depth:
+        return
+
+    for hyper in synset.hypernyms():
+        hyper_node_uri = add_node(hyper)
+        g.add((node_uri, RDFS.subClassOf, hyper_node_uri))
+        add_hypernyms(hyper, hyper_node_uri, depth + 1)
+
+def add_hyponyms(synset, node_uri, depth=0):
+    if depth >= max_depth:
+        return
+
+    for hypo in synset.hyponyms():
+        hypo_node_uri = add_node(hypo)
+        g.add((hypo_node_uri, RDFS.subClassOf, node_uri))
+        add_hyponyms(hypo, hypo_node_uri, depth + 1)
+
+# Build graph
+for idx, entry in data.items():
+    synset_id = entry["id"]
+    uri = URIRef(entry["uri"])
+
+    try:
+        synset = get_wordnet_synset(synset_id)
+        node_uri = add_node(synset)
+        g.add((node_uri, SKOS.exactMatch, uri))
+        add_hypernyms(synset, node_uri)
+        add_hyponyms(synset, node_uri)
+    except Exception as e:
+        print(f"Couldn't process synset {synset_id}: {e}")
+
+# Save graph
+g.serialize(destination="imagenet1k_wordnet_classes.rdf", format="xml")
+
+print("Graph building complete: full WordNet tree stitched into your ImageNet-1k subset, without losing parents or children.")
